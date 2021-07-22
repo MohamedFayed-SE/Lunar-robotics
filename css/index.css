@@ -1,0 +1,89 @@
+body
+{
+    background-image: url(../images/DSC_0038.JPG);
+    background-size: cover;
+    background-position: center center;
+    
+}
+nav
+{
+    position: relative;
+    z-index: 55555555;
+}
+.navbar-toggler{
+    background-color: white !important;
+}
+.nav-link{
+    color: white !important;
+    transition: 1s color;
+}
+.nav-link:hover{color: tomato !important;}
+/*------------home Section----------*/
+#home{
+   
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.header
+{
+    color: white;
+    background-image: linear-gradient(to right,transparent,black,tomato);
+  
+    
+
+}
+.head-buttom
+{
+    margin: 40px 30px;
+}
+.head-buttom button{
+    border-style: none;
+    padding: 16px 20px;
+    margin-right: 10px;
+    color: white;
+   
+}
+.btn-1
+{
+    background-color:red;
+    margin-bottom: 10px;
+    
+}
+.btn-2
+{
+    background-color: transparent;
+    border: solid 1px white !important;
+}
+.head-icon
+{
+    color: white;
+    position: absolute;
+    bottom: -140;
+    left: -2;
+
+}
+.icon{
+    color: white;
+    padding-bottom: 20px ;
+    transition: 1s color;
+    font-size: 26px;
+    
+}
+.icon:hover{
+    color: blue;
+}
+.slider-buttons{
+    margin-left: 20px;
+}
+.slider-buttons button{
+    border-style:none;
+    background-color: red;
+    color: white;
+    padding: 5px 5px;
+    margin-right: 5px;
+   
+}

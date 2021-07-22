@@ -1,0 +1,74 @@
+nav
+{
+    border-bottom: solid 1px red;
+}
+.nav-link
+{
+    font-weight: 600 !important;
+    color: gray !important;
+}
+.acitve{
+    color: red  !important;
+}
+.acitve::after
+{
+    content: '';
+    position: absolute;
+    width: 55px;
+    height: 10px;
+    border-bottom: solid 2px tomato;
+    bottom:-8px;
+    left:695px; 
+}
+article h3{color: #ff0000; font-weight: 700;}
+article p{color: #333333;}
+article a{color: #ff0000;}
+.buttons{margin: 10px;}
+.developerPackage{display: none; }
+.art-head
+{
+    font-weight: 700;
+    color: #333333;
+}
+.explorerpackage{display: none;}
+.visionpackage{display: none;}
+.buttons button
+{
+    border-style: none;
+    padding: 12px 30px;
+    border-radius: 2%;
+    background-color: #c50000;
+    color: white;
+}
+.buttons span{color: white; padding-left: 10px;}
+.price 
+{
+    color: #c50000;
+}
+p{
+    color: #333333;
+}
+.price span{font-size: 30px; font-weight: 700; position: relative;}
+.egp{
+    position: absolute;
+    font-size: 17px;
+    top: 3px;
+    left:100px;
+
+}
+.price button
+{
+    border-style: none;
+    margin-top: 15px;
+    padding: 10px 70px;
+    background-color: white;
+    border: #c50000 solid 1px;
+    color: #c50000;
+    font-weight: 600;
+    transition: 1s   all;
+}
+.price button:hover
+{
+    color: white;
+    background-color: crimson;
+}
